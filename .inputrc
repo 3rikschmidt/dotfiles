@@ -1,0 +1,9 @@
+set bell-style none
+
+# alternate mappings for "page up" and "page down" to search the history
+"\e[5~": history-search-backward
+"\e[6~": history-search-forward
+
+#tab complete without needing to get the case right
+set completion-ignore-case on
+
